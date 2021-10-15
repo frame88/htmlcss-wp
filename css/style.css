@@ -72,7 +72,6 @@ ul{
 }
 
 .azurewindows,.float {
-    background-color: rgba(8, 68, 233, 0.931);
     position:relative;
 }
 
@@ -81,45 +80,63 @@ ul{
 }
 
 .pediment {
-    background-color: #ABCFE7;
     height: 5em;
+}
+
+.subtitle {
+    color: gray;
 }
 
 .columnsx, .columndx {
     height: 30em;
-    width: 14%;
+    width: 20%;
 }
 
 .columnsx {
-    background-color: #ABCFE7;
     margin-top: 5px;
+    background-image: url("../img/img-1.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
 }
 
+.commontest {
+    position: absolute;
+    top: 55%;
+}
+
+
 .columndx{
-    background-color: #ABCFE7;
     margin: 5px 0 5px 5px;
     position: absolute;
     right: 0;
+    background-image: url("../img/img-3.jpg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 
 .entry {
-    background-color: #ABCFE7;
+    background-color: orangered;
+    background-image: url("../img/banner-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
     height: 30em;
-    width: 71%;
+    width: 59%;
     margin: 5px;
 }
-/* {
-    height: 20em;
-    width: 5em;
-    border: 5px solid black;
-
-}*/
 
 /*      FOOTER      */
 
 .purpleform {
     height: 5em;
-    background-color: blueviolet;
     margin-top: 10px;
     margin-bottom: 25px;
+    text-align: center;
 }
+
+.heart {
+    color: green;
+}
+
+
