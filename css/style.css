@@ -26,34 +26,46 @@
 .sand-box {
     height: 25em;
     width: auto;
-    background-color: #E1D67A;
+    background-image: url("img/banner.jpg");
     margin-bottom: 25px;
 }
 
 .azurewindows,.float {
-    background-color: #ABCFE7;
+    background-color: rgba(8, 68, 233, 0.931);
+    position:relative;
 }
 
 .float {
     float: left;
 }
 
-.frontone {
+.pediment {
+    background-color: #ABCFE7;
     height: 5em;
-    border: 5px solid #228fff;
-    
 }
 
 .columnsx, .columndx {
     height: 30em;
-    width: 15%;
-    border: 5px solid #228fff;
+    width: 14%;
 }
 
-.ingresso {
+.columnsx {
+    background-color: #ABCFE7;
+    margin-top: 5px;
+}
+
+.columndx{
+    background-color: #ABCFE7;
+    margin: 5px 0 5px 5px;
+    position: absolute;
+    right: 0;
+}
+
+.entry {
+    background-color: #ABCFE7;
     height: 30em;
-    width: 70%;
-    border: 5px solid #228fff;
+    width: 71%;
+    margin: 5px;
 }
 /* {
     height: 20em;
@@ -70,4 +82,3 @@
     margin-top: 10px;
     margin-bottom: 25px;
 }
-
