@@ -90,6 +90,7 @@ ul{
 .columnsx, .columndx {
     height: 30em;
     width: 20%;
+    color: gray;
 }
 
 .columnsx {
@@ -116,14 +117,14 @@ ul{
 }
 
 .entry {
-    background-color: orangered;
     background-image: url("../img/banner-2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 250px;
     border-radius: 10px;
     height: 30em;
     width: 59%;
     margin: 5px;
+    color: gray;
 }
 
 /*      FOOTER      */
