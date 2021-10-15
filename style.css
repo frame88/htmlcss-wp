@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.roseform {
+    height: 8em;
+    background-color: #E579E6;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*      IMPOSTAZIONE DEL MAIN       */
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.sand-box {
+    height: 25em;
+    width: auto;
+    background-color: #E1D67A;
+    margin-bottom: 25px;
+}
+
+.azurewindows,.float {
+    background-color: #ABCFE7;
+}
+
+.float {
+    float: left;
+}
+
+.frontone {
+    height: 5em;
+    border: 5px solid #228fff;
+    
+}
+
+.columnsx, .columndx {
+    height: 30em;
+    width: 15%;
+    border: 5px solid #228fff;
+}
+
+.ingresso {
+    height: 30em;
+    width: 70%;
+    border: 5px solid #228fff;
+}
+/* {
+    height: 20em;
+    width: 5em;
+    border: 5px solid black;
+
+}*/
+
+/*      FOOTER      */
+
+.purpleform {
+    height: 5em;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
