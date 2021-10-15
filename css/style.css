@@ -24,10 +24,30 @@
 }
 
 .sand-box {
-    height: 25em;
     width: auto;
-    background-image: url("img/banner.jpg");
+    height: 600px;
     margin-bottom: 25px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    border-radius: 10px;    
+}
+
+.testosubanner{
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    color: white;
+    bottom: 5%;
+    left: 15%;
+    
+}
+.title{
+    display: block;
+    font-size: 200%;
+}
+
+.description {
+    font-size: 80%;
 }
 
 .azurewindows,.float {
